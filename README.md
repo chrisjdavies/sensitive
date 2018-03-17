@@ -10,7 +10,7 @@ object, preventing it from accidentally leaking into logs.
 Inspired by hearing the story behind [this CircleCI blog
 post](https://circleci.com/blog/how-a-simple-logging-problem-turned-into-a-bear-trap-lessons-learned/)
 and then discovering that their own solution was almost identical to
-what I'd come up with.
+what I'd come up with in the REPL.
 
 
 ## Installation
