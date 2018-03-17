@@ -1,4 +1,4 @@
-(defproject chrisjd/sensitive "0.1.0"
+(defproject chrisjd/sensitive "0.1.1-SNAPSHOT"
   :description "Stop sensitive information accidentally appearing in logs."
   :url "https://github.com/chrisjdavies/sensitive"
   :license {:name "The MIT License"
