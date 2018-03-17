@@ -4,8 +4,8 @@
 [![Clojars Project](https://img.shields.io/clojars/v/chrisjd/sensitive.svg)](https://clojars.org/chrisjd/sensitive)
 [![CircleCI](https://circleci.com/gh/chrisjdavies/sensitive.svg?style=svg)](https://circleci.com/gh/chrisjdavies/sensitive)
 
-Wraps sensitive information in a derefable wrapper to prevent it
-accidentally leaking into logs.
+Clojure library for wrapping sensitive information in a derefable
+object, preventing it from accidentally leaking into logs.
 
 Inspired by hearing the story behind [this CircleCI blog
 post](https://circleci.com/blog/how-a-simple-logging-problem-turned-into-a-bear-trap-lessons-learned/)
