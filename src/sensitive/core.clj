@@ -1,6 +1,7 @@
 (ns sensitive.core
   "Provides the `sensitive` function for protecting data that should
-  not leak into logs.")
+  not leak into logs."
+  (:require [clojure.pprint]))
 
 (def ^:dynamic *redacted-string* "***REDACTED***")
 
