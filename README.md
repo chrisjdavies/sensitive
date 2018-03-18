@@ -79,7 +79,7 @@ Then we use the `:readers` option to handle with
 
 ``` clojure
 user> (let [cfg (clojure.edn/read-string {:readers {'sensitive sensitive}}
-                                   (slurp "config.edn"))]
+                                         (slurp "config.edn"))]
         (println (str "loaded: " cfg))
         (println (str "password: " @(:password cfg))))
 loaded: {:username "foo", :password "***REDACTED***"}
